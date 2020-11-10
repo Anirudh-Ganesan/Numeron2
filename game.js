@@ -10,8 +10,8 @@ var number3
 randomize();
 
 function randomize() {
-    var number1 = Math.round(Math,random()* 100);
-    var number2 = Math.round(Math,random() * 100);
+    var number1 = Math.round(Math.random() * 100);
+    var number2 = Math.round(Math.random() * 100);
 
     if(number1 < number2) {
         var extra = number1
